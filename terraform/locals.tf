@@ -36,7 +36,7 @@ locals {
     staging = {
       name              = "Staging Account"
       organization_unit = "Product"
-      email             = local.email_secrets["production_account_email"]
+      email             = local.email_secrets["staging_account_email"]
       sso_email         = local.sso_user_email
       first_name        = "Staging"
       last_name         = "User"
